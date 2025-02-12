@@ -32,4 +32,13 @@ This Rust project automates the process of creating and deleting virtual hosts o
 To create a new virtual host, use the `create` subcommand with the `-c` flag, providing the domain name and the document root directory:
 
 ```sh
-virtualhost create <domain> <document_root>
+virtualhost create example.com /var/www/example.com
+```
+
+### Delete a Virtual Host
+
+To delete an existing virtual host, use the `delete` subcommand with the domain name:
+
+```sh
+virtualhost delete example.com
+```
