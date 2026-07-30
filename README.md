@@ -11,7 +11,7 @@ This Rust project automates the process of creating and deleting virtual hosts o
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/naggix/virtualhosts.git
+    git clone https://github.com/darshstudio/virtualhosts.git
     cd virtualhosts
     ```
 
